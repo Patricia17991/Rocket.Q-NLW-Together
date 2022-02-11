@@ -28,6 +28,6 @@ main {
 }
 
 main .container {
-    width: 100%;
+    width: min(100%);
 }
 
