@@ -37,7 +37,7 @@ body, button, input, textarea {
 
 .sr-only {
     /*escondendo a label*/
-    position: absolute;
+    position: absolute; /*coloca a label bem em cima do input*/
     height: 1px;
     width: 1px;
     padding: 0;
