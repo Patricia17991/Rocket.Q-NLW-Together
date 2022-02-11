@@ -22,4 +22,12 @@ header {
 
 main {
     grid-area: right;
+    display: flex;
+    align-items: center;
+
 }
+
+main .container {
+    width: 100%;
+}
+
