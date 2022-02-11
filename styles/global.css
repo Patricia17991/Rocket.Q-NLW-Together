@@ -65,6 +65,6 @@ input, button .button {
 button .button {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    line-height: 0; /*como se fosse uma margem que acompanha o texto*/
+    line-height: 0; /*espaçamento entre as linhas do texto*/
     
 }
