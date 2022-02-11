@@ -35,6 +35,13 @@ body, button, input, textarea {
     /* font-family: 'Poppins', sans-serif; */
 }
 
+.content {
+    /*nosso conteúdo (vamos aplicar na div id="room")*/
+    width: 100%;
+    margin: 0 auto;
+
+}
+
 .sr-only {
     /*escondendo a label*/
     position: absolute; /*coloca a label bem em cima do input*/
