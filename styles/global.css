@@ -1,1 +1,10 @@
-
+html {
+    --black: #0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --bacground: #F6FAFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+}
