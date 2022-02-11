@@ -73,5 +73,6 @@ button .button {
 
     background: var(--blue);
     color: var(--white);
+    cursor: pointer;
 
 }
