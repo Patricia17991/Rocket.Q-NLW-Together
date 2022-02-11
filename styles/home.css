@@ -1,1 +1,24 @@
+.content {
+    display: grid; /*para usar o layout grid*/
+    grid-template-columns: 60% 40%; /*colocar a % das colunas, a soma das colunas tem que ser 100%, cada porcentagem é uma coluna*/
+    grid-template-rows: 11.4rem 1fr; /*definindo as rows*/
 
+
+    /*quais as areas (cada quadrante)*/
+    grid-template-areas: 'header header'
+     'left right';
+
+}
+
+header {
+    grid-area: header;
+
+}
+
+#bg {
+    grid-area: left;
+}
+
+main {
+    grid-area: right;
+}
