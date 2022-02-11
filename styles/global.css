@@ -55,3 +55,9 @@ body, button, input, textarea {
     border-width: 0;
     
 }
+
+
+input, button .button {
+    border-radius: 0.8rem;
+    height: 5rem;
+}
