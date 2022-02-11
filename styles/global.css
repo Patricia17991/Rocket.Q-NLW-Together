@@ -66,5 +66,12 @@ button .button {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 0; /*espaçamento entre as linhas do texto*/
-    
+
+    display: flex; /*pq ele tem uma img nos botões, então é uma boa ideia*/
+    align-items: center; /*alinhar itens no meio do botão*/
+    justify-content: center; /*alinhar na horizontal p/ ficar no meio do botão*/
+
+    background: var(--blue);
+    color: var(--white);
+
 }
