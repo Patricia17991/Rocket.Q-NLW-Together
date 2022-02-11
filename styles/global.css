@@ -61,3 +61,10 @@ input, button .button {
     border-radius: 0.8rem;
     height: 5rem;
 }
+
+button .button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 0; /*como se fosse uma margem que acompanha o texto*/
+    
+}
