@@ -21,3 +21,16 @@ html {
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
 }
+
+body {
+    height: 100vh; /*VH é p/ o layout pegar 100% da tela */
+    background: var(--background);
+
+}
+
+body, button, input, textarea {
+    font-size: clamp(14px, 16rem, 2vw); /*clamp é um intervalo de tamanho (no menor tamanho, padrão da letra, letra no máximo)*/
+    
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
