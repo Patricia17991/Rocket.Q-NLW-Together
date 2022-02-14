@@ -12,19 +12,6 @@
 
 #room header .buttons{
     display: flex;
-
-}
-
-#room header{
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#room header .buttons{
-    display: flex;
 }
 
 #room header .buttons .button:nth-child(1){
