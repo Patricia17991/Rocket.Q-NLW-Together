@@ -65,7 +65,7 @@ input, button, .button {
     line-height: 0;
 }
 
-.separator div:nth-child(1),
+.separator div:nth-child(1),  /*nth-child() entre parentese vc especifica qual div vai usar*/
 .separator div:nth-child(3) {
     background: var(--grey-blue);
     width: 100%;
