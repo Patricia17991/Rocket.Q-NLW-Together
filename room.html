@@ -22,15 +22,15 @@
         <div id="room" class="content">
             <header>
                 <a href="/">
-                    <img src="/images/logo.svg" alt="Rocket.Q Logo"/>
+                    <img src="/assets/logo.svg" alt="Rocket.Q Logo"/>
                 </a>
                 <div class="buttons">
                     <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                         #<%= roomId %>
-                        <img src="/images/copy.svg" alt="Copiar numero da sala"/>
+                        <img src="/assets/copy.svg" alt="Copiar numero da sala"/>
                     </div>
                     <a href="/create-pass" class="button">
-                        <img src="/images/users-white.svg" alt="Criar uma sala">
+                        <img src="/assets/users-white.svg" alt="Criar uma sala">
                         Criar Sala
                     </a>
                 </div>
@@ -45,7 +45,7 @@
 
                         <footer>
                             <div>
-                                <img src="/images/lock.svg" alt="Cadeado">
+                                <img src="/assets/lock.svg" alt="Cadeado">
                                 Esta pergunta é anônima
                             </div>
                             <button>Enviar</button>
@@ -65,7 +65,7 @@
                             <div class="question-wrapper">
                                 <div class="question-content">
                                     <div class="user">
-                                        <img src="/images/user.svg" alt="Avatar">
+                                        <img src="/assets/user.svg" alt="Avatar">
                                     </div>
                                     <div class="question">
                                         <p><%= question.title  %></p>
@@ -73,11 +73,11 @@
                                 </div>
                                 <div class="actions">
                                     <a href="#" class="check" data-id="<%= question.id %>">
-                                        <img src="/images/check.svg" alt="Marcar como lida">
+                                        <img src="/assets/check.svg" alt="Marcar como lida">
                                         Marcar como lida
                                     </a>
                                     <a href="#" class="delete" data-id="<%= question.id %>">
-                                        <img src="/images/trash.svg" alt="Excluir">
+                                        <img src="/assets/trash.svg" alt="Excluir">
                                         Excluir
                                     </a>
                                 </div>
@@ -88,7 +88,7 @@
                             <div class="question-wrapper read">
                                 <div class="question-content">
                                     <div class="user">
-                                        <img src="/images/user.svg" alt="Avatar">
+                                        <img src="/assets/user.svg" alt="Avatar">
                                     </div>
                                     <div class="question">
                                         <p><%= questionRead.title %></p>
@@ -96,7 +96,7 @@
                                 </div>
                                 <div class="actions">
                                     <a href="#" class="delete" data-id="<%= questionRead.id %>">
-                                        <img src="/images/trash.svg" alt="Excluir">
+                                        <img src="/assets/trash.svg" alt="Excluir">
                                         Excluir
                                     </a>
                                 </div>
