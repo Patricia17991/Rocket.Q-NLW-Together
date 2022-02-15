@@ -57,7 +57,7 @@ body, button, input, textarea {
 }
 
 
-/*--------- input and buttons*/
+/* input and buttons*/
 input, button, .button {
     border-radius: .8rem;
     height: 5rem;
@@ -111,7 +111,7 @@ button.grey,
 
 
 
-/*** HEADER ****/
+/*HEADER*/
 
 .content header {
     width: 80%;  
