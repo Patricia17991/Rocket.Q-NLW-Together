@@ -139,7 +139,7 @@
     margin-right: .8rem;
 }
 
-.question-wrapper .actions > a + a { /*a + a é parecido com o nth-child*/
+.question-wrapper .actions > a + a { /*o seletor ' a' é parecido com o nth-child*/
     margin-left: 2.4rem;
 }
 
