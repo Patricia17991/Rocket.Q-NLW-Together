@@ -1,3 +1,7 @@
+
+/*um site com muito css desnecessário pode tornar o carregamento da aplicação lento*/
+
+
 .content {
     max-width: 90%;
 }
