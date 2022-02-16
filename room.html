@@ -4,19 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        
         <link rel="stylesheet" href="/styles/global.css">
         <link rel="stylesheet" href="/styles/room.css">
         <link rel="stylesheet" href="/styles/modal.css">
 
-        
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
-        
         <script src="/scripts/main.js" defer type="module"></script>
     </head>
     <body>
@@ -36,14 +32,12 @@
                     </a>
                 </div>
             </header>
-
             <main>
                 <section id="question-form">
                     <h2>Faça sua pergunta</h2>
                     <form action="/question/create/<%= roomId %>" method="POST">
                         <label class="sr-only" for-id="question">O que você quer perguntar?</label>
                         <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
-
                         <footer>
                             <div>
                                 <img src="/assets/lock.svg" alt="Cadeado">
@@ -53,7 +47,6 @@
                         </footer>
                     </form>
                 </section>
-
                 <section id="questions">
                     <h2 class="sr-only">Perguntas da comunidade</h2>
                     <div class="questions">
@@ -116,11 +109,9 @@
             <div class="modal">
                 <h2>Excluir Pergunta</h2>
                 <p>Tem certeza que você deseja excluir esta pergunta?</p>
-
                 <form action="#" method="POST">
                     <label class="sr-only" for-id="password">Digite sua senha admin</label>
                     <input type="password" id="password" name="password" placeholder="Digite sua senha" />
-
                     <div class="buttons">
                         <div class="button grey cancel">Cancelar</div>
                         <button class="red">Sim, excluir</button>
