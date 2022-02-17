@@ -10,6 +10,10 @@
     display: flex;
 
     background: rgba(4, 9, 17,.8);
+    
+    visibility: hidden; /*escondendo nossa modal*/
+    opacity: 0;
+
 
 }
 
