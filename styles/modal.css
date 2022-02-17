@@ -1,3 +1,9 @@
+.modal-wrapper.active {
+    /*mostrando nossa modal*/
+    visibility: visible; 
+    opacity: 1;
+}
+
 .modal-wrapper {
     position: fixed;
     width: 100vw;
