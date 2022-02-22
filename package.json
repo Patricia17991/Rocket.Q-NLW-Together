@@ -1,0 +1,16 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da página.",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/server.js"
+  },
+  "keywords": [],
+  "author": "Patricia Lima Felismino",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
