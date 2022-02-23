@@ -3,6 +3,9 @@
 //importando o express
 const express = require('express');
 
+//importanto o route
+const route = require('./route');
+
 //criando o server
 const server = express()
 
