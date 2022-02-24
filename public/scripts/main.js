@@ -21,7 +21,7 @@ checkButtons.forEach( button => {
 const deleteButton = document.querySelectorAll(".actions a.delete")
 
 deleteButton.forEach(button => {
-    button.addEventListener("click", handleClick(event, check = false))
+    button.addEventListener("click", (event) =>  handleClick(event, check = false))
 })
 
 function handleClick(event, check = true) {
@@ -29,7 +29,6 @@ function handleClick(event, check = true) {
 
     modal.open()//abrir modal
 }
-
 
 
 
