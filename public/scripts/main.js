@@ -1,6 +1,6 @@
 //aqui colocamos todo o código de script que tivermos
 
-import { Modal } from './modal'//importando o arquivo da modal
+import { Modal } from './modal.js'//importando o arquivo da modal
 
 const modal = Modal()
 
