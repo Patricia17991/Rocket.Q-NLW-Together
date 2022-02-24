@@ -14,6 +14,9 @@ const checkButtons = document.querySelectorAll("a.actions a.check")//pegar botõ
 checkButtons.forEach( button => {
     button.addEventlistener("click", event => {
         //aqui: o que vai fazer quando escutar o click.
+        modalTitle.innerHTML = "Marcar como lida"//vai mudar a pergunta no botão quando clicar neele
+
+        
         modal.open() //abrir modal
     })
 
@@ -24,7 +27,9 @@ const deleteButton = document.querySelectorAll(".actions a.delete")
 
 deleteButton.forEach(button => {
     button.addEventListener("click", event => {
-        modal.close()
+
+        modalTitle.innerHTML = "Excluir essa pergunta?"
+        modal.open()
     })
 })
 
