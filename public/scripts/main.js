@@ -25,7 +25,7 @@ deleteButton.forEach(button => {
 })
 
 function handleClick(event, check = false) {
-        modal.open()//abrir modal
+      modal.open()//abrir modal
 }
 
 
