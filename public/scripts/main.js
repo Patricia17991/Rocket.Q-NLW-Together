@@ -12,13 +12,8 @@ const checkButtons = document.querySelectorAll("a.actions a.check")//pegar botõ
 
 //usamos o eventlistener p/ saber quando algum botão foi clicado por exemplo.
 checkButtons.forEach( button => {
-    button.addEventlistener("click", event => {
-        //aqui: o que vai fazer quando escutar o click.
-        modalTitle.innerHTML = "Marcar como lida"//vai mudar a pergunta no botão quando clicar neele
-
-        
-        modal.open() //abrir modal
-    })
+    button.addEventlistener("click", handleClick)
+      
 
 }) //percorrer todos os botões.(código p/marcar como lido)
 
@@ -26,11 +21,12 @@ checkButtons.forEach( button => {
 const deleteButton = document.querySelectorAll(".actions a.delete")
 
 deleteButton.forEach(button => {
-    button.addEventListener("click", event => {
-
-       
-    })
+    button.addEventListener("click", handleClick)
 })
+
+    function handleClick() {
+        modal.open()//abrir modal
+    }
 
 
 
