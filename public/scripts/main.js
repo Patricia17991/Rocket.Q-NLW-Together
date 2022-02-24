@@ -1,6 +1,6 @@
 //aqui colocamos todo o código de script que tivermos
 
-import  Modal  from './modal.js'//importando o arquivo da modal
+import Modal from './modal.js'//importando o arquivo da modal
 
 const modal = Modal()
 
@@ -13,6 +13,15 @@ checkButtons.forEach( button => {
         modal.open() //abrir modal
     })
 
-}) //percorrer todos os botões.
+}) //percorrer todos os botões.(código p/marcar como lido)
 
-//pegar quando o 'marcar como lido' for clicado.
+//botão excluir
+const deleteButton = document.querySelectorAll(".actions a.delete")
+
+deleteButton.forEach(button => {
+    button.addEventListener("click", event => {
+        modal.close()
+    })
+})
+
+
