@@ -1,9 +1,18 @@
 //aqui colocamos todo o código de script que tivermos
-import { Modal } from './modal' //importando o arquivo da modal
+
+//importando o arquivo da modal
+import { Modal } from './modal'
 
 const modal = Modal()
 
-const checkButtons = document.querySelectorAll("a.actions a.check") //pegar botões com class="check"
+//pegar botões com class="check"
+const checkButtons = document.querySelectorAll("a.actions a.check")
+
+//usamos o eventlistener p/ saber quando algum botão foi clicado por exemplo.
+checkButtons.forEach({
+    button.eventlistener()
+}) //percorrer todos os botões.
+
 //pegar quando o 'marcar como lido' for clicado.
 
 
