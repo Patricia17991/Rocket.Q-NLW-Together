@@ -7,7 +7,7 @@ export default function Modal() {
 
     function close() {
         //funcionalidade de remover a classe active e fechar a modal.
-        
+        document.querySelector('.modal-wrapper').classList.remove("active")
     }
 
     //retornando as funcionalidades acima
