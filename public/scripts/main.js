@@ -27,11 +27,14 @@ deleteButton.forEach(button => {
 function handleClick(event, check = true) {
     event.preventDefault() //para parar de alterar a nossa url pq os links agora não se comportam como links comuns
 
+    const text = check ? "Marcar como lida" : "Excluir" 
+
+    const roomId = document.querySelector("#room-id").dataset.id
+
     const form = document.querySelector(".modal form")//pegando o form
     form.setAttribute("action", `/room/:room/:question/:active`)//atributo que vamos mudar dele é o action
-                              //id,número da questão,ação
-
-    const text = check ? "Marcar como lida" : "Excluir" 
+                     //id,número da questão,ação
+    
     //concatenação do titulo + a pergunta
     modalTitle.innerHTML = `${text} esta pergunta?`
 
