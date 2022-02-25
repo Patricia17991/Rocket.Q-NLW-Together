@@ -13,7 +13,7 @@ const checkButtons = document.querySelectorAll("a.actions a.check")//pegar botõ
 //usamos o eventlistener p/ saber quando algum botão foi clicado por exemplo.
 checkButtons.forEach( button => {
     button.addEventlistener("click", handleClick)
-      
+    
 
 }) //percorrer todos os botões.(código p/marcar como lido)
 
