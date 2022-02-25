@@ -13,7 +13,7 @@ const checkButtons = document.querySelectorAll("a.actions a.check")//pegar botõ
 //usamos o eventlistener p/ saber quando algum botão foi clicado por exemplo.
 checkButtons.forEach( button => {
     button.addEventlistener("click", handleClick)
-    
+      
 
 }) //percorrer todos os botões.(código p/marcar como lido)
 
@@ -26,6 +26,9 @@ deleteButton.forEach(button => {
 
 function handleClick(event, check = true) {
     event.preventDefault() //para parar de alterar a nossa url pq os links agora não se comportam como links comuns
+
+    const form = document.querySelector(".modal form")
+
 
     const text = check ? "Marcar como lida" : "Excluir" 
     //concatenação do titulo + a pergunta
