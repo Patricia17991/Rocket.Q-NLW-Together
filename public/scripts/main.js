@@ -28,7 +28,7 @@ function handleClick(event, check = true) {
     event.preventDefault() //para parar de alterar a nossa url pq os links agora não se comportam como links comuns
 
     const form = document.querySelector(".modal form")//pegando o form
-    form.setAttribute("action", "/room/:room/:question/:active")//atributo que vamos mudar dele é o action
+    form.setAttribute("action", `/room/:room/:question/:active`)//atributo que vamos mudar dele é o action
 
 
     const text = check ? "Marcar como lida" : "Excluir" 
