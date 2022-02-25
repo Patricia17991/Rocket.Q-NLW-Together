@@ -13,7 +13,7 @@ route.get('/room', (req, res) => res.render("room"))
 route.get('/create-pass',(req, res) => res.render("create-pass"))
 
 //exemplo do formato da rota:
-//route.get('/room/:room/:question/:action')
+//route.post('/room/:room/:question/:action')
 //usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
 
 module.exports = route
