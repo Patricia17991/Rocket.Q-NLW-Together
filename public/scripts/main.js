@@ -29,11 +29,15 @@ function handleClick(event, check = true) {
     const text = check ? "Marcar como lida" : "Excluir" 
     //concatenação do titulo + a pergunta
     modalTitle.innerHTML = `${text} esta pergunta?`
-    modalDescription.innerHTML =  `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?` //toLowerCase p/trocar o 'M' por 'm' ...
+
+    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?` //toLowerCase p/trocar o 'M' por 'm' ...
     modalButton.innerHTML = `sim, ${text.toLowerCase()}`
     
+    check ? modalButton.classList.remove("red") : modalButton.classList.add("red") //remove ou coloca a class button, p/ só o botão excluir ficar vermelho 
+
     modal.open()//abrir modal
 }
+
 
 
 
