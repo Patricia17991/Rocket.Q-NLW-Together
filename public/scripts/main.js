@@ -30,7 +30,7 @@ function handleClick(event, check = true) {
     //concatenação do titulo + a pergunta
     modalTitle.innerHTML = `${text} esta pergunta?`
     modalDescription.innerHTML =  `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?` //toLowerCase p/trocar o 'M' por 'm' ...
-    modalButton.innerHTML = `${text.toLowerCase()} esta pergunta? `
+    modalButton.innerHTML = `sim, ${text.toLowerCase()}`
     
     modal.open()//abrir modal
 }
