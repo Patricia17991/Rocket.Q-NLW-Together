@@ -11,7 +11,10 @@ const route = express.Router()
 route.get('/', (req, res) => res.render("index"))
 route.get('/room', (req, res) => res.render("room"))
 route.get('/create-pass',(req, res) => res.render("create-pass"))
-route.get('/room/:room/:question/:action')//usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
+
+//exemplo do formato da rota:
+//route.get('/room/:room/:question/:action')
+//usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
 
 module.exports = route
 //o browser  so consegue fazer a função get
