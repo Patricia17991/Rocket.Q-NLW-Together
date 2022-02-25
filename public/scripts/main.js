@@ -25,10 +25,13 @@ deleteButton.forEach(button => {
 })
 
 function handleClick(event, check = true) {
-    modalTitle.innerHTML = check ? "Marcar como lido" : "Excluir essa pergunta?"  
+    modalTitle.innerHTML = check ? "Marcar como lida" : "Excluir essa pergunta?" 
+
+    modalDescription.innerHTML = check ? "Tem certeza que deseja marcar como lida esta pergunta?" : "Tem certeza que deseja excluir esta pergunta?"
 
     modal.open()//abrir modal
 }
+
 
 
 
