@@ -18,3 +18,4 @@ route.get('/create-pass',(req, res) => res.render("create-pass"))
 
 module.exports = route
 //o browser  so consegue fazer a função get
+
