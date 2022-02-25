@@ -28,7 +28,7 @@ function handleClick(event, check = true) {
     const text = check ? "Marcar como lida" : "Excluir" 
 
 
-    modalTitle.innerHTML = 
+    modalTitle.innerHTML = text + "esta pergunta?"
 
     modalDescription.innerHTML = check ? "Tem certeza que deseja marcar como lida esta pergunta?" : "Tem certeza que deseja excluir esta pergunta?"
 
