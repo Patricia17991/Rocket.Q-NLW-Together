@@ -32,7 +32,7 @@ function handleClick(event, check = true) {
     const roomId = document.querySelector("#room-id").dataset.id
 
     const form = document.querySelector(".modal form")//pegando o form
-    form.setAttribute("action", `/room/:room/:question/:active`)//atributo que vamos mudar dele é o action
+    form.setAttribute("action", `/room/${roomId}/:question/:active`)//atributo que vamos mudar dele é o action
                      //id,número da questão,ação
     
     //concatenação do titulo + a pergunta
