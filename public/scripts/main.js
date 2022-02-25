@@ -25,6 +25,7 @@ deleteButton.forEach(button => {
 })
 
 function handleClick(event, check = true) {
+    event.preventDefault() //para parar de alterar a nossa url pq os links agora não se comportam como links comuns
 
     const text = check ? "Marcar como lida" : "Excluir" 
     //concatenação do titulo + a pergunta
@@ -37,7 +38,3 @@ function handleClick(event, check = true) {
 
     modal.open()//abrir modal
 }
-
-
-
-
