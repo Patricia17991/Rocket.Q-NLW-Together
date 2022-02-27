@@ -11,5 +11,5 @@ route.get('/create-pass',(req, res) => res.render("create-pass"))
 //usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
 
 module.exports = route
-//o browser  so consegue fazer a função get
+
 
