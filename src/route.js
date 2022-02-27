@@ -4,7 +4,6 @@ const express = require('express');
 const route = express.Router()
 
 //o index aqui é = index.ejs
-// o / é o meu domínio
 route.get('/', (req, res) => res.render("index"))
 route.get('/room', (req, res) => res.render("room"))
 route.get('/create-pass',(req, res) => res.render("create-pass"))
