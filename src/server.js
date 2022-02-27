@@ -1,7 +1,7 @@
 //importando o express
 const express = require('express')
+const route = require('./route')
 
-const route = require('./route')//importanto o route
 const path = require('path')//modulo que usaremos p/ colocar rota da pasta views
 const server = express()//criando o server
 
