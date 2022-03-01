@@ -30,9 +30,10 @@ function handleClick(event, check = true) {
     const text = check ? "Marcar como lida" : "Excluir" 
     const slug = check ? "check" : "delete"
     const roomId = document.querySelector("#room-id").dataset.id
+    const questionId = event.target.dataset.id
 
     const form = document.querySelector(".modal form")//pegando o form
-    form.setAttribute("action", `/room/${roomId}/:question/${slug}`)//atributo que vamos mudar dele é o action
+    form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`)//atributo que vamos mudar dele é o action
                      //id,número da questão,ação
     
     //concatenação do titulo + a pergunta
@@ -45,5 +46,6 @@ function handleClick(event, check = true) {
 
     modal.open()//abrir modal
 }
+
 
 
