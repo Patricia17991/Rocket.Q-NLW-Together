@@ -8,7 +8,7 @@ const QuestionController = require('./controllers/QuestionController')
 //o index aqui é = index.ejs
 // o / é o meu domínio
 route.get('/', (req, res) => res.render("index", {page: 'enter-room'}))
-route.get('/create-pass', (req, res) => res.render("create-pass", {page: create-pass}))//passando uma variável aqui dentro
+route.get('/create-pass', (req, res) => res.render("index", {page: create-pass}))//passando uma variável aqui dentro
 
 route.get('/room', (req, res) => res.render("room"))
 
