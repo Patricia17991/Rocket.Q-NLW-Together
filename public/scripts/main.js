@@ -31,6 +31,7 @@ function handleClick(event, check = true) {
     const slug = check ? "check" : "delete"
     const roomId = document.querySelector("#room-id").dataset.id
     const questionId = event.target.dataset.id
+    //a senha vai ser mandada no formulário normalmente por isso não preicsa por na url.
 
     const form = document.querySelector(".modal form")//pegando o form
     form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`)//atributo que vamos mudar dele é o action
