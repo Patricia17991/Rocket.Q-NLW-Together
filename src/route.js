@@ -7,10 +7,10 @@ const QuestionController = require('./controllers/QuestionController')
 
 //o index aqui é = index.ejs
 // o / é o meu domínio
-route.get('/', (req, res) => res.render("index"))
-route.get('/room', (req, res) => res.render("room")
-)
-route.get('/create-pass', (req, res) => res.render("create-pass"))
+route.get('/', (req, res) => res.render("index", {page: 'enter-room'}))
+route.get('/create-pass', (req, res) => res.render("create-pass", {page: create-pass}))//passando uma variável aqui dentro
+
+route.get('/room', (req, res) => res.render("room"))
 
 //exemplo do formato que vamos passar p/ rota
 route.post('/room/:room/:question/:action', QuestionController.index)
@@ -18,4 +18,3 @@ route.post('/room/:room/:question/:action', QuestionController.index)
 
 module.exports = route
 //o browser  so consegue fazer a função get
-
