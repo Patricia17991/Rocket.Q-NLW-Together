@@ -11,3 +11,5 @@ module.exports = {
         console.log(`room = ${roomId}, questionId = ${questionId}, action = ${action}, password = ${password}`)
     }
 }
+
+//vamos usar assim que implementar o banco de dados
