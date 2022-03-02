@@ -9,6 +9,5 @@ module.exports = () =>
     })
 
 
-//pronto, banco de dados configurado para usarmos
 
 //o open é para abrirmos a conexão com o banco de dados, sempre vamos precisar fazer isso
