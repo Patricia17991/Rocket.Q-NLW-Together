@@ -4,7 +4,7 @@ const {open} = require("sqlite")
 
 module.exports = () => {
     open({
-        filename:'/src/db/rocketq.lite' //caminho do nosso banco de dados
+        filename:'/src/db/rocketq.sqlite' //caminho do nosso banco de dados
     })
 }
 
