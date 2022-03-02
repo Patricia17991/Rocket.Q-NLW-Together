@@ -15,7 +15,7 @@ route.get('/room', (req, res) => res.render("room"))
 //exemplo do formato que vamos passar p/ rota
 route.post('/room/:room/:question/:action', QuestionController.index)
 //usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
-route.post('/room/create-room', )
+route.post('/room/create-room', RoomController.create)
 
 module.exports = route
 //o browser  so consegue fazer a função get
