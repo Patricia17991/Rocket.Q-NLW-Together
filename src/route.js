@@ -12,7 +12,7 @@ route.get('/create-pass', (req, res) => res.render("index", {page: create-pass})
 route.get('/room/:room', (req, res) => res.render("room"))
 
 //exemplo do formato que vamos passar p/ rota
-route.post('/room/:room/:question/:action', QuestionController.index)
+route.post('/question/:room/:question/:action', QuestionController.index)
 //usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
 route.post('/create-room', RoomController.create)
 
