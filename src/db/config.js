@@ -11,3 +11,4 @@ module.exports = () =>
 
 
 //o open é para abrirmos a conexão com o banco de dados, sempre vamos precisar fazer isso
+//no filename passamos qual vai ser o arquivo do nosso banco de dados
