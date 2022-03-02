@@ -34,7 +34,7 @@ function handleClick(event, check = true) {
     //a senha vai ser mandada no formulário normalmente por isso não preicsa por na url.
 
     const form = document.querySelector(".modal form")//pegando o form
-    form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`)//url p/ onde vai o formulário
+    form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)//url p/ onde vai o formulário
     
     //concatenação do titulo + a pergunta
     modalTitle.innerHTML = `${text} esta pergunta?`
