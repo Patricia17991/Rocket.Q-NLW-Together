@@ -1,8 +1,8 @@
-const express = require('express');
-//falando quem é o route
 const route = express.Router()
 const QuestionController = require('./controllers/QuestionController')
 const RoomController = require('./controllers/RoomController')
+
+const express = require('express');
 
 //o index aqui é = index.ejs
 // o / é o meu domínio
