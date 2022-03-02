@@ -1,9 +1,8 @@
 const express = require('express');
-
 //falando quem é o route
 const route = express.Router()
-
 const QuestionController = require('./controllers/QuestionController')
+const RoomController = require('./controllers/RoomController')
 
 //o index aqui é = index.ejs
 // o / é o meu domínio
@@ -16,6 +15,5 @@ route.get('/room', (req, res) => res.render("room"))
 route.post('/room/:room/:question/:action', QuestionController.index)
 //usamos os ':' pq aqui não sabemos os ids, os conteúdos que virão.
 route.post('/room/create-room', RoomController.create)
-
 module.exports = route
-//o browser  so consegue fazer a função get
+
