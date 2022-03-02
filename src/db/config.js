@@ -4,8 +4,9 @@ const {open} = require("sqlite")
 
 module.exports = () => {
     open({
-        filename:'/src/db/rocketq.sqlite' //caminho do nosso banco de dados
+        filename: '/src/db/rocketq.sqlite', //caminho do nosso banco de dados
+        driver:sqlite3.Database,
     })
 }
 
-//rocketq.lite é o nome que escolhemos para o nosso banco de dados
+//pronto, banco de dados configurado para usarmos
