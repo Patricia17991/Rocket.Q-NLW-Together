@@ -17,3 +17,5 @@ const initDb = {
 
 
 initDb.init() //chamar função
+
+//esse arquivo roda separadamente fora do projeto
