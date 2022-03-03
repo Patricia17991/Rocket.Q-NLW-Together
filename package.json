@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon .",
-    "init-db": "node scr/db/init.js"
+    "init-db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "Patricia Lima Felismino",
