@@ -14,7 +14,7 @@ const initDb = {
            id INTEGER PRIMARY KEY,
            pass TEXT
         )`); //onde coloco o código para criar a nossa tabela (onde ficam os códigos SQL).Comandos  sql sempre em maiúculo e o que não for comando em minúculo.
-        db.exec(`CREATE TABLE questions(
+        await db.exec(`CREATE TABLE questions(
            id INTEGER PRIMARY KEY AUTOINCREMENT,
            titulo TEXT,
            check INT
