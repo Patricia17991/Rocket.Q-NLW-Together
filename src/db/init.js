@@ -12,7 +12,7 @@ const initDb = {
         //primeiro comando para criar as tabelas
         await db.exec(`
           
-        `)//onde colocamos o código p/ criar as tabelas (onde ficam os códigos SQL).Comandos sql sempre em maiúsculo
+        `)//onde colocamos o código p/ criar as tabelas (onde ficam os códigos SQL).Comandos sql sempre em maiúsculo e o que não for comando em minúsculo
     }
 
 } //iniciando nosso banco de dados
