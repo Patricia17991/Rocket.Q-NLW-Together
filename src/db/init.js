@@ -22,7 +22,7 @@ const initDb = {
         )`)
     }
 
-} //iniciando nosso banco de dados
+} //iniciando nosso banco de dados. quando iniciamos um database é interessante fechar ele depois da execução
 
 initDb.init() //chamar/executar a função
 
