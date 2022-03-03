@@ -10,7 +10,9 @@ const initDb = {
         const db = await Database()
 
         //primeiro comando para criar as tabelas
-        await db.exec()
+        await db.exec(`
+          
+        `)//onde colocamos o código p/ criar as tabelas
     }
 
 } //iniciando nosso banco de dados
