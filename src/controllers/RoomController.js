@@ -15,7 +15,7 @@ module.exports = {
             id,
             pass
         ) VALUES (
-            ${roomId},
+            ${roomId.parseInt()},
             ${pass}
         )`)//aqui dentro os comandos insert, para fazermos a inserção no banco de dados
         await db.close()
