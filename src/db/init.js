@@ -16,6 +16,6 @@ const initDb = {
 } //iniciando nosso banco de dados
 
 
-initDb.init() //chamar função
+initDb.init() //chamar/executar a função
 
 //esse arquivo roda separadamente fora do projeto
