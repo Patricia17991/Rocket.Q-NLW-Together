@@ -13,7 +13,8 @@ module.exports = {
         //inserir no banco de dados
         db.run(``)//aqui dentro os comandos insert, para fazermos a inserção no banco de dados
 
-       
+        db.close()
+        
         res.redirect(`/room/${roomId}`)
     }
 }
