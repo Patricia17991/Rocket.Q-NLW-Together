@@ -7,6 +7,7 @@ module.exports = {
             i == 0 ? roomId = Math.floor(Math.random() * 10).toString() :
            roomId += Math.floor(Math.random() * 10).toString() //transformou os números de 0 a 9 em string e concatenou eles para formar uma sequencia do tipo 365847
         }
+        //criando sala/cadastrando nossa sala,nossa room.
         
        
         res.redirect(`/room/${roomId}`)
