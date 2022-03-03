@@ -20,4 +20,4 @@ initDb.init() //chamar/executar a função
 
 //esse arquivo roda separadamente fora do projeto
 //o AWAIT é uma forma de garantir que o banco de dados vai ser executado da forma correta antes de fazer o que precisa ser feito(para evitar erros na execução)
-//o JS não permiti aqui rodar sem o ASYNC
+//o JS não permiti aqui rodar sem o ASYNC (o await não funciona sem o async)
