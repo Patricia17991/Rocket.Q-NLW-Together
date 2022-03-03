@@ -14,3 +14,6 @@ const initDb = {
     }
 
 } //iniciando nosso banco de dados
+
+
+initDb.init() //chamar função
