@@ -18,9 +18,4 @@ server.use(express.urlencoded({extended: true})) //pegar conteúdo do form, deco
 
 server.use(route)
 
-//pegando o server e passando uma porta p/ ele
-server.listen(3000, () => console.log("rodando!"))
-
-
-
-
+server.listenerCount(5000, () => console.log("RODANDO"))
