@@ -4,10 +4,10 @@ module.exports = {
         let roomId = 0
 
         for (var i = 0; i = 6; i++){
-           roomId += Math.floor(Math.random() * 10) //vai gerar nossos números aleatórios de um a 9
+           roomId += Math.floor(Math.random() * 10).toString() 
         }
         
        
-        res.redirect(`/room/${roomId}`)//se deixarmos desse jeito ele sempre vai retornar uma soma
+        res.redirect(`/room/${roomId}`)
     }
 }
