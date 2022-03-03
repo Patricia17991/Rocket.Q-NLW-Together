@@ -19,7 +19,8 @@ const initDb = {
            titulo TEXT,
            check INT
 
-        )`)
+        )`);
+        await db.close()
     }
 
 } //iniciando nosso banco de dados. quando iniciamos um database é interessante fechar ele depois da execução
