@@ -8,6 +8,6 @@ module.exports = {
         }
         
        
-        res.redirect(`/room/${roomId}`)
+        res.redirect(`/room/${roomId}`)//se deixarmos desse jeito ele sempre vai retornar uma soma
     }
 }
