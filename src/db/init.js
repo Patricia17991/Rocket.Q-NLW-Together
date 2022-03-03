@@ -1,4 +1,4 @@
-//não faz parte do projeto, é apenas um arquivo que precisa ser rodado antes para que as tabelas do banco de dados sejam criadas p/ depois colocarmos o conteúdo lá dentro.
+//se for usar o await dentro de uma função ela precisará ser uma função async
 
 //primeiro importar nosso banco de dados
 const Database = require("./config")
