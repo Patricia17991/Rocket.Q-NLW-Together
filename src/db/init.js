@@ -19,4 +19,4 @@ const initDb = {
 initDb.init() //chamar/executar a função
 
 //esse arquivo roda separadamente fora do projeto
-//o Js roda muito rápido as funções e para ele não ler elas sem esperar que entreguem um resultado usamos o AWAIT. Para evitar problemas com essa questão, para que o JS espere o banco rodar pra poder fazer o que precisa
+//o AWAIT é uma forma de garantir que o banco de dados vai ser executado da forma correta antes de fazer o que precisa ser feito
