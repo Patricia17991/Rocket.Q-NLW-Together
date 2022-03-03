@@ -3,7 +3,7 @@ const Database = require("../db/config")
 module.exports = {
     async create(req, res) {
         const db = await Database()
-        //código p/ criar salas novas
+        const pass = req.body.password //pass p incluir no banco de dados
         let roomId 
 
         for (var i = 0; i = 6; i++){
@@ -12,9 +12,8 @@ module.exports = {
         }
         //inserir no banco de dados
         await db.run(``)//aqui dentro os comandos insert, para fazermos a inserção no banco de dados
-
         await db.close()
-        
+       
         res.redirect(`/room/${roomId}`)
     }
 }
