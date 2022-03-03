@@ -11,7 +11,13 @@ module.exports = {
            roomId += Math.floor(Math.random() * 10).toString() //transformou os números de 0 a 9 em string e concatenou eles para formar uma sequencia do tipo 365847
         }
         //inserir no banco de dados
-        await db.run(``)//aqui dentro os comandos insert, para fazermos a inserção no banco de dados
+        await db.run(`INSERT INTO rooms(
+            id,
+            pass
+        ) VALUES (
+            ${roomId},
+            ${pass}
+        )`)//aqui dentro os comandos insert, para fazermos a inserção no banco de dados
         await db.close()
        
         res.redirect(`/room/${roomId}`)
