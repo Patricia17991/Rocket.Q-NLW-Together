@@ -1,7 +1,8 @@
 const Database = require("../db/config")
 
 module.exports = {
-    create(req, res) {
+    async create(req, res) {
+        const db = await Database()
         //código p/ criar salas novas
         let roomId 
 
