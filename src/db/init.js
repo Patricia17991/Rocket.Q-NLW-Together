@@ -17,7 +17,7 @@ const initDb = {
         await db.exec(`CREATE TABLE questions(
            id INTEGER PRIMARY KEY AUTOINCREMENT,
            titulo TEXT,
-           read INT
+           read_marked INT
 
         )`);
         await db.close()
