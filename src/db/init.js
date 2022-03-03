@@ -11,10 +11,13 @@ const initDb = {
 
         //primeiro comando para criar as tabelas
         await db.exec(`CREATE TABLE rooms(
-           id INTERGER PRIMARY KEY,
+           id INTEGER PRIMARY KEY,
            pass TEXT
-        )`); //onde coloco o código para criar a nossa tabela (onde ficam os códigos SQL).Comandos  sql sempre em maiúculo e o que não for comando em minúculo
-        db.exec(``)
+        )`); //onde coloco o código para criar a nossa tabela (onde ficam os códigos SQL).Comandos  sql sempre em maiúculo e o que não for comando em minúculo.
+        db.exec(`CREATE TABLE questions(
+           id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+        )`)
     }
 
 } //iniciando nosso banco de dados
