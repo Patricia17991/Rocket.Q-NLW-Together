@@ -13,7 +13,6 @@ server.use(express.static("public"))
 //dizendo onde esta a pasta View
 server.set('views',path.join(__dirname, 'views'))
 
-//sempre antes d rota, configurando midure
 server.use(express.urlencoded({extended: true})) //pegar conteúdo do form, decodificar e passar p/ o controller
 
 server.use(route)
