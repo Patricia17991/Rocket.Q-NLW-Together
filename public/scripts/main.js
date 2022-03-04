@@ -32,15 +32,15 @@ function handleClick(event, check = true) {
     const form = document.querySelector(".modal form")
     form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)//url p/ onde vai o formulário
     
-    //concatenação do titulo + a pergunta
+    
     modalTitle.innerHTML = `${text} esta pergunta?`
 
-    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?` //toLowerCase p/trocar o 'M' por 'm' ...
+    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?` 
     modalButton.innerHTML = `sim, ${text.toLowerCase()}`
     
-    check ? modalButton.classList.remove("red") : modalButton.classList.add("red") //remove ou coloca a class button, p/ só o botão excluir ficar vermelho 
+    check ? modalButton.classList.remove("red") : modalButton.classList.add("red") 
 
-    modal.open()//abrir modal
+    modal.open()
 }
 
 
