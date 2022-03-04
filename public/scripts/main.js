@@ -28,7 +28,6 @@ function handleClick(event, check = true) {
     const slug = check ? "check" : "delete"
     const roomId = document.querySelector("#room-id").dataset.id
     const questionId = event.target.dataset.id
-    //a senha vai ser mandada no formulário normalmente por isso não preicsa por na url.
 
     const form = document.querySelector(".modal form")//pegando o form
     form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)//url p/ onde vai o formulário
