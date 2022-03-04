@@ -29,7 +29,7 @@ function handleClick(event, check = true) {
     const roomId = document.querySelector("#room-id").dataset.id
     const questionId = event.target.dataset.id
 
-    const form = document.querySelector(".modal form")//pegando o form
+    const form = document.querySelector(".modal form")
     form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)//url p/ onde vai o formulário
     
     //concatenação do titulo + a pergunta
