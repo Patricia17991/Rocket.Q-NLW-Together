@@ -1,5 +1,3 @@
-
-
 import Modal from './modal.js'
 
 const modal = Modal()
@@ -8,7 +6,7 @@ const modalTitle = document.querySelector('.modal h2')
 const modalDescription = document.querySelector('.modal p')
 const modalButton = document.querySelector('.modal button')
 
-const checkButtons = document.querySelectorAll("a.actions a.check")//pegar botões com class="check"
+const checkButtons = document.querySelectorAll("a.actions a.check")
 
 //usamos o eventlistener p/ saber quando algum botão foi clicado por exemplo.
 checkButtons.forEach( button => {
