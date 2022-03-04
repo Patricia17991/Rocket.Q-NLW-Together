@@ -1,4 +1,4 @@
-    export default function Modal() {
+export default function Modal() 
 
     const modalWrapper = document.querySelector('.modal-wrapper') //para não precisar repetir o código tirado
 
