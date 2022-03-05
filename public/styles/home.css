@@ -60,7 +60,7 @@ input, button, .button {
 .separator div:nth-child(2) { 
     color: var(--grey-blue);
     font-family: 'Poppins', sans-serif;
-    font-weight: 400; /*peso da fonte*/
+    font-weight: 400; 
     padding: 0 1.35rem; /*espaço entre os elementos*/
     line-height: 0; /*para centralizar bem*/
 }
