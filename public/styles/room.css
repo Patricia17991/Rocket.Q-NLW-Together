@@ -61,7 +61,6 @@
     background: transparent;
 
     width: 100%;
-
     outline: none;
 }
 
@@ -95,8 +94,6 @@
     line-height: 2.4rem
 }
 
-
-/******* Questions *****/
 .question-wrapper {
     background: var(--light-blue);
     margin-bottom: .8rem;
@@ -142,7 +139,6 @@
     margin-left: 2.4rem;
 }
 
-/***** Question Read ****/
 .content {
     max-width: min(112rem, 90%);
 }
@@ -155,8 +151,6 @@
     background: var(--grey-blue);
 }
 
-
-/*** No Questions   **/
 .no-questions {
     text-align: center;
     margin-top: 5.2rem;
