@@ -20,7 +20,7 @@
 .modal-wrapper .modal {
     width: min(59rem, 90%); /*tamanho da modal*/
     background: var(--white);
-    margin: auto; /*margens automaticas*/
+    margin: auto; 
 
     border-radius: .8rem;
 
