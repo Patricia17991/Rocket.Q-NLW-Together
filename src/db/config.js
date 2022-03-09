@@ -7,7 +7,6 @@ module.exports = () =>
         filename: './src/db/rocketq.sqlite',
         driver: sqlite3.Database,
     });
-//pronto, banco de dados configurado para usarmos
 
 
 
