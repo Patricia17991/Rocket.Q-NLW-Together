@@ -8,7 +8,7 @@
     "init-db": "node src/db/init.js"
   },
   "keywords": [],
-  "author": "Patricia Lima Felismino",
+  "author": "Patricia L' Felismino",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
